@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "country": "India",
+    "role": "Batsman",
+    "bat_hand": "Right-hand bat",
+    "bowl_hand": "Right-arm medium",
+    "market_price_usd": 1500000,
+    "flag": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg",
+    "profile_image": "https://staticg.sportskeeda.com/editor/2023/09/e260e-16956311531695-1920.jpg",
+    "action_image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Virat_Kohli.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Ben Stokes",
+    "country": "England",
+    "role": "All-Rounder",
+    "bat_hand": "Left-hand bat",
+    "bowl_hand": "Right-arm fast-medium",
+    "market_price_usd": 1350000,
+    "flag": "https://upload.wikimedia.org/wikipedia/en/b/be/Flag_of_England.svg",
+    "profile_image": "https://resources.pulse.icc-cricket.com/players/284/1154.png",
+    "action_image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Ben_Stokes_2018.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "role": "Batsman",
+    "bat_hand": "Right-hand bat",
+    "bowl_hand": "Right-arm offbreak",
+    "market_price_usd": 1250000,
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg",
+    "profile_image": "https://resources.pulse.icc-cricket.com/players/284/1125.png",
+    "action_image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Babar_Azam_2020.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Steve Smith",
+    "country": "Australia",
+    "role": "Batsman",
+    "bat_hand": "Right-hand bat",
+    "bowl_hand": "Right-arm legbreak",
+    "market_price_usd": 1300000,
+    "flag": "https://upload.wikimedia.org/wikipedia/en/b/b9/Flag_of_Australia.svg",
+    "profile_image": "https://resources.pulse.icc-cricket.com/players/284/788.png",
+    "action_image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Steve_Smith_2018.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "role": "Bowler",
+    "bat_hand": "Right-hand bat",
+    "bowl_hand": "Right-arm legbreak",
+    "market_price_usd": 1000000,
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Afghanistan.svg",
+    "profile_image": "https://resources.pulse.icc-cricket.com/players/284/2881.png",
+    "action_image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Rashid_Khan_2021.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Rohit Sharma",
+    "country": "India",
+    "role": "Batsman",
+    "bat_hand": "Right-hand bat",
+    "bowl_hand": "Right-arm offbreak",
+    "market_price_usd": 1400000,
+    "flag": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg",
+    "profile_image": "https://resources.pulse.icc-cricket.com/players/284/107.png",
+    "action_image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Rohit_Sharma_2019.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "role": "All-Rounder",
+    "bat_hand": "Left-hand bat",
+    "bowl_hand": "Left-arm orthodox",
+    "market_price_usd": 1050000,
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Flag_of_Bangladesh.svg",
+    "profile_image": "https://resources.pulse.icc-cricket.com/players/284/201.png",
+    "action_image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Shakib_Al_Hasan_2020.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "role": "Bowler",
+    "bat_hand": "Right-hand bat",
+    "bowl_hand": "Right-arm fast",
+    "market_price_usd": 1150000,
+    "flag": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg",
+    "profile_image": "https://resources.pulse.icc-cricket.com/players/284/1124.png",
+    "action_image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Jasprit_Bumrah_2019.jpg"
+  }
+]
