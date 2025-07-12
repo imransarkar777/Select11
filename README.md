@@ -3,6 +3,6 @@
 "Select11"
 
 react-icons
-flowbite
+flowbite removed now
 
 react > javascript with swc integration ;

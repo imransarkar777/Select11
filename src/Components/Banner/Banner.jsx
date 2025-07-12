@@ -9,10 +9,10 @@ const Banner = ({ handleAddBalance }) => {
         <img src={bannerimg} alt="" />
         <div className="flex flex-col items-center absolute inset-0 justify-center ">
           <img className="h-60 w-52" src={cricimg} alt="" />
-          <p className="font-bold text-[40px] text-white">
+          <p className="font-bold inter-f text-[40px] text-white">
             Assemble Your Ultimate Dream 11 Cricket Team
           </p>
-          <p className="tagname text-2xl text-white opacity-70">
+          <p className="tagname text-2xl text-white opacity-70 sora-f">
             Beyond Boundaries Beyond Limits
           </p>
 
