@@ -1,6 +1,7 @@
 import React from "react";
 import { BiSolidUserCircle } from "react-icons/bi";
 import PropTypes from "prop-types";
+import AvailablePlayers from "../AvailablePLayers/AvailablePlayers";
 
 const Player = ({ player }) => {
   const {
@@ -17,22 +18,24 @@ const Player = ({ player }) => {
   console.log("inside player");
   //   console.log(id);
   return (
-    <>
-      <div>
-        <img src={action_image} alt="" />
+    <div className="playerCards bg-amber-200 p-6">
+      <div className="">
+        <img src={action_image} className="rounded-2xl h-60 w-[376px]" alt="" />
       </div>
       <div>
         <div>
           <div>
             <div>
               {/* <BiSolidUserCircle /> */}
-              <img src={profile_image} alt="PP" />
+              <img src={profile_image} className="w-7 h-7" alt="PP" />
             </div>
             <div>{name}</div>
           </div>
           <div>
             <div>
-              <div>{flag}</div>
+              <div>
+                <img src={flag} className="w-5" alt="" />
+              </div>
               <p>{country}</p>
             </div>
             <div>
@@ -52,7 +55,7 @@ const Player = ({ player }) => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 Player.propTypes = {

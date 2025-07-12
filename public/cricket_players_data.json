@@ -7,9 +7,9 @@
     "bat_hand": "Right-hand bat",
     "bowl_hand": "Right-arm medium",
     "market_price_usd": 1500000,
-    "flag": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg",
-    "profile_image": "https://staticg.sportskeeda.com/editor/2023/09/e260e-16956311531695-1920.jpg",
-    "action_image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Virat_Kohli.jpg"
+    "flag": "https://cdn.countryflags.com/thumbs/india/flag-square-250.png",
+    "profile_image": "https://documents.bcci.tv/resizedimageskirti/164_compress.png",
+    "action_image": "https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg"
   },
   {
     "id": 2,
@@ -19,9 +19,9 @@
     "bat_hand": "Left-hand bat",
     "bowl_hand": "Right-arm fast-medium",
     "market_price_usd": 1350000,
-    "flag": "https://upload.wikimedia.org/wikipedia/en/b/be/Flag_of_England.svg",
-    "profile_image": "https://resources.pulse.icc-cricket.com/players/284/1154.png",
-    "action_image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Ben_Stokes_2018.jpg"
+    "flag": "https://www.countryflags.com/wp-content/uploads/england-flag-jpg-xl-1024x615.jpg",
+    "profile_image": "https://documents.iplt20.com/ipl/IPLHeadshot2023/177.png",
+    "action_image": "https://www.cricbuzz.com/a/img/v1/595x396/i1/c725234/stokes-has-hinted-at-changes-i.jpg"
   },
   {
     "id": 3,
@@ -31,9 +31,9 @@
     "bat_hand": "Right-hand bat",
     "bowl_hand": "Right-arm offbreak",
     "market_price_usd": 1250000,
-    "flag": "https://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg",
-    "profile_image": "https://resources.pulse.icc-cricket.com/players/284/1125.png",
-    "action_image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Babar_Azam_2020.jpg"
+    "flag": "https://www.countryflags.com/wp-content/uploads/pakistan-flag-png-large.png",
+    "profile_image": "https://static-files.cricket-australia.pulselive.com/headshots/440/568-camedia.png",
+    "action_image": "https://blogs.a-sports.tv/wp-content/uploads/2024/12/babar-azam-nominated-icc-t20i-cricketer-of-the-year.jpg"
   },
   {
     "id": 4,
@@ -43,9 +43,9 @@
     "bat_hand": "Right-hand bat",
     "bowl_hand": "Right-arm legbreak",
     "market_price_usd": 1300000,
-    "flag": "https://upload.wikimedia.org/wikipedia/en/b/b9/Flag_of_Australia.svg",
-    "profile_image": "https://resources.pulse.icc-cricket.com/players/284/788.png",
-    "action_image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Steve_Smith_2018.jpg"
+    "flag": "https://www.countryflags.com/wp-content/uploads/flag-jpg-xl-9-1024x512.jpg",
+    "profile_image": "https://static-files.cricket-australia.pulselive.com/headshots/288/1075-camedia.png",
+    "action_image": "https://crictoday.com/wp-content/uploads/2023/05/skysports-steve-smith-australia_5188434-1024x576.webp"
   },
   {
     "id": 5,
@@ -55,9 +55,9 @@
     "bat_hand": "Right-hand bat",
     "bowl_hand": "Right-arm legbreak",
     "market_price_usd": 1000000,
-    "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Afghanistan.svg",
-    "profile_image": "https://resources.pulse.icc-cricket.com/players/284/2881.png",
-    "action_image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Rashid_Khan_2021.jpg"
+    "flag": "https://www.countryflags.com/wp-content/uploads/flag-jpg-xl-1-1024x683.jpg",
+    "profile_image": "https://static-files.cricket-australia.pulselive.com/headshots/440/272-camedia.png",
+    "action_image": "https://images.news18.com/ibnlive/uploads/2024/06/t20-world-cup_rashid-khan_afghanistan-2024-06-fa2dcf97e11be0f2caae983eb93d40db-16x9.jpg?impolicy=website&width=640&height=360"
   },
   {
     "id": 6,
@@ -67,9 +67,9 @@
     "bat_hand": "Right-hand bat",
     "bowl_hand": "Right-arm offbreak",
     "market_price_usd": 1400000,
-    "flag": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg",
-    "profile_image": "https://resources.pulse.icc-cricket.com/players/284/107.png",
-    "action_image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Rohit_Sharma_2019.jpg"
+    "flag": "https://cdn.countryflags.com/thumbs/india/flag-square-250.png",
+    "profile_image": "https://documents.iplt20.com/ipl/IPLHeadshot2025/6.png",
+    "action_image": "https://criczine.cricdiction.com/wp-content/uploads/2025/02/rohit-768x512.jpg"
   },
   {
     "id": 7,
@@ -79,9 +79,9 @@
     "bat_hand": "Left-hand bat",
     "bowl_hand": "Left-arm orthodox",
     "market_price_usd": 1050000,
-    "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Flag_of_Bangladesh.svg",
-    "profile_image": "https://resources.pulse.icc-cricket.com/players/284/201.png",
-    "action_image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Shakib_Al_Hasan_2020.jpg"
+    "flag": "https://www.countryflags.com/wp-content/uploads/flag-jpg-xl-14-1024x614.jpg",
+    "profile_image": "https://cdn.prod.website-files.com/65b300512ced7cf5a4ad20ab/65e63128696926e8d8c19f1f_Shakib%20Al%20Hasan.jpg",
+    "action_image": "https://library.sportingnews.com/styles/crop_style_16_9_tablet_webp/s3/2021-08/shakib-cropped_1lwt1in8l8o41smoihlbo9hja.jpg.webp?itok=yLj2A0gf"
   },
   {
     "id": 8,
@@ -91,8 +91,8 @@
     "bat_hand": "Right-hand bat",
     "bowl_hand": "Right-arm fast",
     "market_price_usd": 1150000,
-    "flag": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg",
-    "profile_image": "https://resources.pulse.icc-cricket.com/players/284/1124.png",
-    "action_image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Jasprit_Bumrah_2019.jpg"
+    "flag": "https://cdn.countryflags.com/thumbs/india/flag-square-250.png",
+    "profile_image": "https://documents.iplt20.com/ipl/IPLHeadshot2025/9.png",
+    "action_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUPEdmTrt7GenJRB4nu0Xr_PfyaG10gBVxrA&s"
   }
 ]

@@ -10,17 +10,16 @@ const AvailablePlayers = () => {
       .then((data) => setAvailablePlayers(data));
   }, []);
 
-  //   console.log(availablePlayers);
 
   return (
     <div>
       <p className="title">
         Available Players total - {availablePlayers.length}
       </p>
-      <div>
-        {availablePlayers.map((player) => {
-          <Player key={player.id} player={player}></Player>;
-        })}
+      <div className="grid grid-cols-3 gap-6">
+        {availablePlayers.map((player) => (
+          <Player key={player.id} player={player}></Player>
+        ))}
       </div>
     </div>
   );

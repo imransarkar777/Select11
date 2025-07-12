@@ -1,19 +1,29 @@
+import { useState } from "react";
 import AvailablePlayers from "../AvailablePLayers/AvailablePlayers";
 import SelectedPlayers from "../SelectedPlayes/SelectedPlayers";
 
 const Playground = () => {
-  const handleShowAvailable = () => {
-    return <AvailablePlayers></AvailablePlayers>;
-  };
-  const handleShowSelected = () => {};
+  const [state, setState] = useState("available");
+
+  function handleAvailable() {
+    setState("available");
+    console.log("Available");
+  }
+  function handleSelected() {
+    setState("selected");
+    console.log("selected");
+  }
 
   return (
     <div className="flex justify-between">
-      <div>  </div>
       <div>
-        <button onClick={() => handleShowAvailable()}> Available </button>
-        <button onClick={handleShowSelected}> Selected </button>
+        <p>{state} Players</p>{" "}
       </div>
+      <div>
+        <button onClick={() => handleAvailable()}> Available </button>
+        <button onClick={() => handleSelected()}> Selected </button>
+      </div>
+      <div>{()=> handleAvailable}</div>
     </div>
   );
 };
