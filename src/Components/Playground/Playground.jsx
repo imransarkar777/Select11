@@ -1,24 +1,33 @@
 // import { useState } from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import AvailablePlayers from "../AvailablePLayers/AvailablePlayers";
 import SelectedPlayers from "../SelectedPlayes/SelectedPlayers";
 
 const Playground = ({ btnState, setBtnState }) => {
   // const [playerStatus, setPlayerStatus] = useState("availableNow");
+  const [availablePlayers, setAvailablePlayers] = useState([]);
   const [gotSelected, setGotSelected] = useState([]);
 
+  useEffect(() => {
+    fetch("cricket_players_data.json")
+      .then((res) => res.json())
+      .then((data) => setAvailablePlayers(data));
+  }, []);
+
   const handleChoose = (player) => {
-    
-    if (  player.id ===  )
-    
-    const newList = [...gotSelected, player];
-    setGotSelected(newList);
-
-
-
-
+    // Function to add a player to the selected list
+    if (!gotSelected.some((p) => p.id === player.id)) {
+      setGotSelected((prevSelected) => [...prevSelected, player]);
+    }
   };
-  
+
+  const handleRemove = (playerID) => {
+    setGotSelected((prevSelected) =>
+      prevSelected.filter((player) => player.id !== playerID)
+    );
+  };
+
+  const selectedPlayersIDS = gotSelected.map((player) => player.id);
 
   return (
     <>
@@ -44,9 +53,16 @@ const Playground = ({ btnState, setBtnState }) => {
         </div>
         <div className="playersDashboard">
           {btnState === "available" ? (
-            <AvailablePlayers handleChoose={handleChoose} />
+            <AvailablePlayers
+              handleChoose={handleChoose}
+              availablePlayers={availablePlayers}
+              selectedPlayersIDS={selectedPlayersIDS}
+            />
           ) : (
-            <SelectedPlayers gotSelected={gotSelected} />
+            <SelectedPlayers
+              gotSelected={gotSelected}
+              handleRemove={handleRemove}
+            />
           )}
         </div>
       </div>
@@ -55,8 +71,3 @@ const Playground = ({ btnState, setBtnState }) => {
 };
 
 export default Playground;
-
-
-
-
-

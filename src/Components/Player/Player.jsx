@@ -3,7 +3,7 @@ import { BiSolidUserCircle } from "react-icons/bi";
 import PropTypes from "prop-types";
 import AvailablePlayers from "../AvailablePLayers/AvailablePlayers";
 
-const Player = ({ player, handleChoose}) => {
+const Player = ({ player, handleChoose, isSelected }) => {
   const {
     name,
     country,
@@ -14,9 +14,6 @@ const Player = ({ player, handleChoose}) => {
     profile_image,
     action_image,
   } = player;
-
-  
-
 
   // console.log("handle clicked");
   // console.log("inside player");
@@ -59,8 +56,11 @@ const Player = ({ player, handleChoose}) => {
               </div>
               <div className="flex items-center justify-between ">
                 <p>Price : ${market_price_usd}</p>
-                <button onClick={()=>handleChoose(player)}>
-                  Choose Player
+                <button
+                  onClick={() => handleChoose(player)}
+                  disabled={isSelected}
+                >
+                  {isSelected ? "Aleady Exists" : "Choose Player"}
                 </button>
               </div>
             </div>
@@ -72,6 +72,8 @@ const Player = ({ player, handleChoose}) => {
 };
 Player.propTypes = {
   player: PropTypes.object.isRequired,
+  handleChoose: PropTypes.func.isRequired,
+  isSelected: PropTypes.bool.isRequired,
 };
 
 export default Player;

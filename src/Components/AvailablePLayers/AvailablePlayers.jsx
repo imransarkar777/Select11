@@ -1,14 +1,10 @@
-import React, { useEffect, useState } from "react";
+// import React, { useEffect, useState } from "react";
 import Player from "../Player/Player";
 
-const AvailablePlayers = ({ handleChoose }) => {
-  const [availablePlayers, setAvailablePlayers] = useState([]);
+const AvailablePlayers = ({ handleChoose, availablePlayers, selectedPlayersIDS }) => {
 
-  useEffect(() => {
-    fetch("cricket_players_data.json")
-      .then((res) => res.json())
-      .then((data) => setAvailablePlayers(data));
-  }, []);
+
+  
 
   return (
     <div>
@@ -21,6 +17,7 @@ const AvailablePlayers = ({ handleChoose }) => {
             key={player.id}
             player={player}
             handleChoose = {handleChoose}
+            isSelected={selectedPlayersIDS.includes(player.id)}
           ></Player>
         ))}
       </div>

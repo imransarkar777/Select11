@@ -1,7 +1,7 @@
 import React from "react";
 import SelectedPlayer from "../SelectedPlayer/SelectedPlayer";
 
-const SelectedPlayers = ({ gotSelected }) => {
+const SelectedPlayers = ({ gotSelected, handleRemove }) => {
   return (
     <>
       <div>
@@ -9,10 +9,11 @@ const SelectedPlayers = ({ gotSelected }) => {
       </div>
       <div>total selected player - {gotSelected.length}</div>
 
-      {gotSelected.map((selectedPlayer, idx) => (
+      {gotSelected.map((selectedPlayer) => (
         <SelectedPlayer
-          key={idx}
+          key={selectedPlayer.id}
           selectedPlayer={selectedPlayer}
+          handleRemove={handleRemove}
         ></SelectedPlayer>
       ))}
     </>
