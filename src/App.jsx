@@ -6,7 +6,7 @@ import Playground from "./Components/Playground/Playground";
 
 function App() {
   const [balance, setBalance] = useState(0);
-  const [state, setState] = useState("selected");
+  const [btnState, setBtnState] = useState("selected");
   const handleAddBalance = () => {
     console.log("handle clicked !!");
     const toAdd = Math.floor(Math.random() * 100000000) + 50000000;
@@ -17,7 +17,7 @@ function App() {
     <>
       <Header balance={balance}></Header>
       <Banner handleAddBalance={handleAddBalance}></Banner>
-      <Playground state={state} setState={setState}></Playground>
+      <Playground btnState={btnState} setBtnState={setBtnState}></Playground>
       {/* <AvailablePlayers></AvailablePlayers> */}
     </>
   );

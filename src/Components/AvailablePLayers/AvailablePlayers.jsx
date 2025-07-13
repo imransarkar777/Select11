@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Player from "../Player/Player";
 
-const AvailablePlayers = () => {
+const AvailablePlayers = ({ handleChoose }) => {
   const [availablePlayers, setAvailablePlayers] = useState([]);
 
   useEffect(() => {
@@ -10,7 +10,6 @@ const AvailablePlayers = () => {
       .then((data) => setAvailablePlayers(data));
   }, []);
 
-
   return (
     <div>
       <p className="title">
@@ -18,7 +17,11 @@ const AvailablePlayers = () => {
       </p>
       <div className="grid grid-cols-3 gap-6">
         {availablePlayers.map((player) => (
-          <Player key={player.id} player={player}></Player>
+          <Player
+            key={player.id}
+            player={player}
+            handleChoose = {handleChoose}
+          ></Player>
         ))}
       </div>
     </div>

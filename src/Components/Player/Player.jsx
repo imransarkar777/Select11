@@ -3,7 +3,7 @@ import { BiSolidUserCircle } from "react-icons/bi";
 import PropTypes from "prop-types";
 import AvailablePlayers from "../AvailablePLayers/AvailablePlayers";
 
-const Player = ({ player }) => {
+const Player = ({ player, handleChoose}) => {
   const {
     name,
     country,
@@ -15,7 +15,11 @@ const Player = ({ player }) => {
     action_image,
   } = player;
 
-  console.log("inside player");
+  
+
+
+  // console.log("handle clicked");
+  // console.log("inside player");
   //   console.log(id);
   return (
     <div className="playerCards bg-amber-200 p-6 sora-f">
@@ -55,7 +59,9 @@ const Player = ({ player }) => {
               </div>
               <div className="flex items-center justify-between ">
                 <p>Price : ${market_price_usd}</p>
-                <button>Choose Player</button>
+                <button onClick={()=>handleChoose(player)}>
+                  Choose Player
+                </button>
               </div>
             </div>
           </div>
